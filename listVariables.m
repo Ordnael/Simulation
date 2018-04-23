@@ -3,7 +3,7 @@
 % Read file.
 fileName = 'debrecen.csv';
 dataM = csvread(fileName);
-timeVec = [1:744]';
+timeVec = [1:744]'*3600;
 
 % Convection.
 convCoeffExt = 20;
